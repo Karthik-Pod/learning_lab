@@ -1,11 +1,11 @@
 # Learning log
 
-One entry per week. Newest at the top.
+One entry per Day. Newest at the top.
 
 Template:
 
 ```
-## Week of YYYY-MM-DD – <skill>
+## DAY dd-mm-yyyy – <skill>
 - Learned:
 - Used it in:
 - Confused me / still unclear:
@@ -13,8 +13,9 @@ Template:
 
 ---
 
-## Week of 2026-10-26 – Git in a real team project
+## Day 1  28-10-2026 – Git in a real team project
 
-- Learned:
-- Used it in:
-- Confused me / still unclear:
+- Learned: Learned what is branch and why it is used 
+- Used it in: Used in for the course project SDE
+- Confused me / still unclear: How they work , how important they are , need to leanr the basics
+  
