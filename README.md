@@ -3,55 +3,106 @@
 My practice space for the technical skills of my MSc in Artificial Intelligence
 (Human-Centered Intelligent Systems) at Radboud University.
 
-Every skill gets its own folder with a small project. Every folder is built on its
-own branch and merged through a pull request, so I practise the team workflow too.
+Each area gets its own folder with a topic guide and my practice work.
+Every area is built on its own branch and merged through a pull request,
+so I practise the team workflow all the time.
 
-## How I learn
+## How I learn a topic
 
-1. **Learn** – short input: a tutorial, chapter or video (max 1 h)
-2. **Apply** – build something small with it in this repo, the same week
-3. **Struggle** – try for 15 minutes alone before asking for help
-4. **Explain** – write 3–5 lines in [LEARNING_LOG.md](LEARNING_LOG.md)
+1. **Learn** – read the topic explanation or watch the linked resource
+2. **Try it** – do the practice steps myself, typing every command
+3. **Struggle** – stuck? Try 15 minutes alone, then ask for help
+4. **Explain** – write a short entry in [LEARNING_LOG.md](LEARNING_LOG.md)
 
-## Roadmap
+A topic is done when I can do it **without looking at the guide**.
 
-### Phase 1 – Foundations (now → mid-December)
+---
 
-- [ ] `01-git-basics` – branches, commits, merges, conflicts, pull requests
-- [ ] `02-terminal` – shell basics ([The Missing Semester](https://missing.csail.mit.edu/), lectures 1–2)
-- [ ] `02-python-structure` – modules, virtual environment, `requirements.txt`, a small CLI tool
-- [ ] `03-data-logging` – a fake "experiment" that saves clean data per participant
-- [ ] `04-stats` – analyse that data: paired t-test, effect size, mixed-effects model
+## Topics
 
-**Checkpoint:** branch, commit, PR and fix errors without help; explain a
-within-subjects analysis in 2 minutes.
+Work top to bottom: later areas build on earlier ones.
 
-### Phase 2 – Core ML (mid-December → February)
+### 1. Git & GitHub → [`01-git-github`](01-git-github/README.md)
+- [ ] Repositories and the 4 places (working folder, stage, local, remote)
+- [ ] Staging and committing
+- [ ] Reading history and changes
+- [ ] Branches
+- [ ] Merging
+- [ ] Merge conflicts
+- [ ] Undoing mistakes
+- [ ] Remotes: push, pull, fetch
+- [ ] `.gitignore`
+- [ ] Stash
+- [ ] Pull requests and code review
+- [ ] Issues and linking work
+- [ ] Forks
+- [ ] Keeping a branch up to date in a team
+- [ ] Good commit messages
 
-- [ ] `05-math` – linear algebra + probability refresh (*Mathematics for Machine Learning*, ch. 2, 5, 6)
-- [ ] `06-micrograd` – a neural network from scratch (Karpathy, *Neural Networks: Zero to Hero*)
-- [ ] `07-makemore` – a small language model from scratch
-- [ ] `08-evaluation` – proper splits, baselines, metrics, significance tests
-- [ ] `09-experiment-tracking` – Weights & Biases or MLflow
+### 2. Terminal & Linux
+- [ ] Navigating folders and files
+- [ ] Running programs, arguments, environment variables
+- [ ] Pipes and searching (`|`, `grep`)
+- [ ] SSH into a remote machine (for compute clusters)
+- Resource: [The Missing Semester](https://missing.csail.mit.edu/)
 
-**Checkpoint:** train a small network from scratch and show a fair, tracked evaluation.
+### 3. Python for research
+- [ ] Project structure: modules and packages
+- [ ] Virtual environments and `requirements.txt`
+- [ ] Writing a small command-line tool
+- [ ] Type hints and docstrings
+- [ ] Testing with `pytest`
 
-### Phase 3 – Probabilistic thinking + robotics (March → June)
+### 4. Working with data
+- [ ] Logging experiment data cleanly (CSV / JSON per participant)
+- [ ] pandas: loading, cleaning, grouping
+- [ ] Plotting results (matplotlib)
 
-- [ ] `10-bayesian` – *Statistical Rethinking* ch. 1–9 with PyMC
-- [ ] `11-ros2` – ROS2 basics with a simulated robot
-- [ ] `12-papers` – 3-line summaries of my target supervisor's papers
+### 5. Statistics for user studies
+- [ ] Within- vs between-subjects designs, counterbalancing
+- [ ] t-tests and effect sizes
+- [ ] Mixed-effects models (`statsmodels`)
+- Resource: *Discovering Statistics* (Andy Field)
 
-**Checkpoint:** a conversation with my target supervisor about a Research LAB / thesis topic.
+### 6. Math for ML
+- [ ] Linear algebra: vectors, matrices, matrix products
+- [ ] Probability: distributions, Bayes' rule, expectation
+- [ ] Derivatives and gradients
+- Resource: *Mathematics for Machine Learning* (free book), ch. 2, 5, 6
 
-### Phase 4 – Specialisation (Year 2)
+### 7. Deep learning from scratch
+- [ ] Backpropagation by hand (micrograd)
+- [ ] A small language model (makemore)
+- [ ] The same in PyTorch
+- Resource: Karpathy, *Neural Networks: Zero to Hero*
 
-- [ ] One deep-dive, chosen with my supervisor: active inference · neuroAI · mechanistic interpretability
+### 8. ML evaluation & experiments
+- [ ] Train / validation / test splits, data leakage
+- [ ] Baselines and metrics
+- [ ] Significance of results
+- [ ] Experiment tracking (Weights & Biases or MLflow)
+
+### 9. Probabilistic modelling
+- [ ] Bayesian inference
+- [ ] Building models in PyMC
+- Resource: *Statistical Rethinking* (McElreath), ch. 1–9
+
+### 10. Robotics with ROS2
+- [ ] Nodes, topics, messages
+- [ ] Controlling a simulated robot
+
+### 11. Reading research
+- [ ] Three-pass paper reading
+- [ ] 3-line summaries of my target supervisor's papers
+
+### 12. Specialisation (pick one, later)
+- [ ] Active inference · neuroAI · mechanistic interpretability
+
+---
 
 ## Rules
 
-1. One new skill at a time.
-2. Always apply it in the same week.
-3. Courses come first; pause in exam weeks.
-4. Review progress on the last Sunday of every month.
-5. Type the code myself. AI explains, I build.
+1. One topic at a time.
+2. Type the code and commands myself. AI explains, I build.
+3. Courses come first; pause in busy weeks.
+4. Every area: branch → practise → PR → merge → tick the box → log entry.
